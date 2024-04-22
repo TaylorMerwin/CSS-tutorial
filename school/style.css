@@ -1,0 +1,131 @@
+/* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap');
+
+.sedan-regular {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Sedan", serif;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  word-spacing: normal;
+}
+
+section {
+  float: left;
+  width: 50%;
+}
+
+p {
+  text-indent: 2em;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+aside ul li {
+  margin-bottom: 0.5em;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  display: flex;
+  gap: 2%;
+}
+
+nav a {
+  flex: 1;
+  font-size: 1.3em;
+  text-decoration: none;
+  border: solid 1px #a66;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #a66;
+  color: white;
+}
+
+nav li {
+  margin: 1em;
+  width: 100%
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+footer {
+  clear: both;
+}
+
+header {
+  padding: 20px;
+}
+
+header,
+footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+header h1 {
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 2em;
+}
+
+li {
+  line-height: 1.5em;
+}
+
+a {
+  outline-color: transparent;
+}
+
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: #a64;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: cornflowerblue;
+}
